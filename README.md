@@ -1,3 +1,5 @@
+### Install
+
 1) Clone repo:
 git clone https://github.com/ly552/zbxgrf01.git
 cd zabbix-docker
