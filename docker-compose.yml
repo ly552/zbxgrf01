@@ -3,7 +3,7 @@ version: '3.7'
 services:
   postgres:
     container_name: postgres
-    image: postgres:14.5
+    image: postgres:latest
     restart: always
     ports:
       - "5432:5432"
@@ -80,7 +80,7 @@ services:
 
   grafana:
     container_name: grafana
-    image: grafana/grafana:9.1.4-ubuntu
+    image: grafana/grafana-enterprise:9.3.6-ubuntu
     user: "472"
     volumes:
       - ./grafana:/var/lib/grafana
