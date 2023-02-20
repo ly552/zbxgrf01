@@ -13,10 +13,8 @@ cd zabbix-docker
 docker-compose up -d
 
 ### Settings & ports
-Zabbix :80
-Admin:zabbix
-Grafana :3000
-admin:admin
+1)Zabbix :80, Admin:zabbix
+2)Grafana :3000, admin:admin
 
 Plugin:
 HTTP URL: http://localhost-ip/api_jsonrpc.php
