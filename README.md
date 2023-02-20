@@ -1,3 +1,10 @@
+###Components docker-compose:
+Postgresql 14.5
+Zabbix Server 6.2
+Zabbix Frontend NGINX 6.2
+Zabbix Agent 6.2
+Grafana 9.1.4
+
 ### Install git & docker & docker-compose
 https://docs.docker.com/engine/install/ubuntu/
 
