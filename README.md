@@ -7,9 +7,10 @@ apt install git docker-compose
 1) Clone repo:
 git clone https://github.com/ly552/zbxgrf01.git
 2) Change owner grafana directory:
+cd zbxgrf01
 chown -R 472:472 grafana
 3) Run docker-compose:
-cd zabbix-docker
+cd zbxgrf01
 docker-compose up -d
 
 ### Settings & ports
