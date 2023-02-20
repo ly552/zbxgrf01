@@ -1,9 +1,9 @@
 ### Components docker-compose:
-### Postgresql 14.5
-### Zabbix Server 6.2
-### Zabbix Frontend NGINX 6.2
-### Zabbix Agent 6.2
-### Grafana 9.1.4
+- Postgresql 14.5
+- Zabbix Server 6.2
+- Zabbix Frontend NGINX 6.2
+- Zabbix Agent 6.2
+- Grafana 9.1.4
 
 ### Install git & docker & docker-compose
 https://docs.docker.com/engine/install/ubuntu/
@@ -21,9 +21,8 @@ cd zbxgrf01
 docker-compose up -d
 
 ### Settings & ports
-1)Zabbix :80, Admin:zabbix
-
-2)Grafana :3000, admin:admin
+- Zabbix :80, Admin:zabbix
+- Grafana :3000, admin:admin
 
 Plugin:
 HTTP URL: http://localhost-ip/api_jsonrpc.php
