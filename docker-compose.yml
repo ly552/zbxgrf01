@@ -73,8 +73,8 @@ services:
     ports:
       - "10050:10050"
     environment:
-      - ZBX_HOSTNAME=zabbix-server
-      - ZBX_SERVER_HOST=zabbix-server
+      - ZBX_HOSTNAME=zxbgrf01
+      - ZBX_SERVER_HOST=127.0.0.1
     depends_on:
       - zabbix-server
 
