@@ -1,7 +1,6 @@
 ### Install
 1) Clone repo:
 git clone https://github.com/ly552/zbxgrf01.git
-cd zabbix-docker
 2) Change owner grafana directory:
 chown -R 472:472 grafana
 3) Run docker-compose:
