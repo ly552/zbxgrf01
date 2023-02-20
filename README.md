@@ -14,6 +14,7 @@ docker-compose up -d
 
 ### Settings & ports
 1)Zabbix :80, Admin:zabbix
+
 2)Grafana :3000, admin:admin
 
 Plugin:
